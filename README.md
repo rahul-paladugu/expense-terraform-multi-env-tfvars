@@ -2,14 +2,6 @@
 
 > Terraform IaC to provision and manage **dev**, **uat**, and **prod** AWS environments for the **Expense** application using per-environment `.tfvars` files and isolated S3 remote state backends.
 
----
-
-## 📌 Repository Description
-
-> _"Terraform configuration that provisions AWS EC2 instances (MySQL, Backend, Frontend), Security Groups, and Route 53 DNS records for the Expense application. Each environment (dev/uat/prod) is controlled via its own `.tfvars` and backend configuration, sharing a single root module codebase."_
-
----
-
 ## 🏗️ Repository Structure
 
 ```
@@ -272,11 +264,8 @@ terraform apply -var-file="<env>/<env>.tfvars"
 
 ---
 
-## 👤 Author
+👤 Author
 
 **Rahul Paladugu**
 - GitHub: [@rahul-paladugu](https://github.com/rahul-paladugu)
 
----
-
-> _Built with ❤️ using Terraform `~> 1.14` and AWS Provider `~> 6.0`. Single codebase. Three environments. Zero configuration drift._
