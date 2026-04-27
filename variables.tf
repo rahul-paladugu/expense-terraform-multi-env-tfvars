@@ -5,7 +5,7 @@ variable "region" {
     default = "use1"
 }
 variable "environment" {
-    type = "string"
+    type = string
 }
 variable "project" {
     default = "expense"
